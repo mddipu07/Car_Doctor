@@ -4,7 +4,7 @@ import React from 'react';
 
 export default async function ServiceDetailsPage({ params }) {
   const p = await params;
-  const res = await fetch(`https://car-doctor-flax.vercel.app/api/service/${p.id}`, {
+  const res = await fetch(`https://car-doctor-lime-one.vercel.app/api/service/${p.id}`, {
     cache: "no-store"
   });
   const data = await res.json();

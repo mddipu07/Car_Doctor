@@ -27,7 +27,7 @@ export default  function BookingUpdateForm({data}) {
       presentAddress,
      }
      console.log(bookingPayload);
-     const res = await fetch(`https://car-doctor-flax.vercel.app/api/my-bookings/${data._id}`, {
+     const res = await fetch(`https://car-doctor-lime-one.vercel.app/api/my-bookings/${data._id}`, {
       method: "PATCH",
       body: JSON.stringify(bookingPayload)
      });

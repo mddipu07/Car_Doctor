@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-Open [https://car-doctor-flax.vercel.app](https://car-doctor-flax.vercel.app) with your browser to see the result.
+Open [https://car-doctor-lime-one.vercel.app](https://car-doctor-lime-one.vercel.app) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 

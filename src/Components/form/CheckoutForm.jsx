@@ -32,7 +32,7 @@ export default  function CheckoutForm({data}) {
       service_price:data.price
      }
      console.log(bookingPayload);
-     const res = await fetch("https://car-doctor-flax.vercel.app/api/service", {
+     const res = await fetch("https://car-doctor-lime-one.vercel.app/api/service", {
       method: "POST",
       body: JSON.stringify(bookingPayload)
      });

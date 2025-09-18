@@ -5,7 +5,7 @@ export default function DeleteBookingButton({id}) {
     const router = useRouter()
     const handleDelete = async(id) => {
 
-        const res = await fetch(`https://car-doctor-flax.vercel.app/api/service/${id}`,{
+        const res = await fetch(`https://car-doctor-lime-one.vercel.app/api/service/${id}`,{
             method: "DELETE",
         });
         const data = await res.json()
