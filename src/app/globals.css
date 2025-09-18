@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.verlay-bg{
+background: #141212;
+background: linear-gradient(253deg, rgba(20, 18, 18, 0) 20%, rgba(25, 31, 25, 1) 100%);
+}
